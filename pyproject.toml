@@ -1,0 +1,20 @@
+[project]
+name = "dat803course"
+version = "1.0.0"
+description = "dat803 data engineering course work"
+authors = [{ name = "m4siko", email = "589664@stud.hvl.no" }]
+dependencies = [
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "scipy>=1.17.1",
+]
+requires-python = ">=3.14.*"
+readme = "README.md"
+license = { text = "GNU" }
+
+
+[tool.pdm]
+distribution = false
