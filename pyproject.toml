@@ -10,6 +10,11 @@ dependencies = [
     "matplotlib>=3.10.8",
     "seaborn>=0.13.2",
     "scipy>=1.17.1",
+    "jupyter>=1.1.1",
+    "pip>=26.0.1",
+    "holidays>=0.95",
+    "statsmodels>=0.14.6",
+    "rich>=15.0.0",
 ]
 requires-python = ">=3.14.*"
 readme = "README.md"
